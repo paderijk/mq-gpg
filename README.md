@@ -79,4 +79,8 @@ The script will sign the message and put it in the message queue.
 ## Todo
 
 There are still some small things that needs to be done:
-* Split the mq.cfg and the gpg.cfg, so the credentials for GPG are only know by the submit script
+* Split the `mq.cfg` and the `gpg.cfg`, so the credentials for GPG are only know by the `submit-messages.py` script
+
+## Acknowledgement
+
+The start of the script(s) for RabbitMQ come original from the tutorials on the RabbitMQ Website - https://www.rabbitmq.com/getstarted.html
